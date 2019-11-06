@@ -53,6 +53,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.openGameFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,30 +85,31 @@
             this.iFToolStripMenuItem.Name = "iFToolStripMenuItem";
             this.iFToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.iFToolStripMenuItem.Text = "File";
-            this.iFToolStripMenuItem.Click += new System.EventHandler(this.IFToolStripMenuItem_Click);
+            this.iFToolStripMenuItem.Click += new System.EventHandler(this.FileDropDown_Click);
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.openToolStripMenuItem.Text = "Open ";
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.OpenToolStripMenuItem_Click);
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.newToolStripMenuItem.Text = "New";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.saveAsToolStripMenuItem.Text = "Save as";
             // 
             // playToolStripMenuItem
@@ -250,6 +252,11 @@
             this.label7.TabIndex = 17;
             this.label7.Text = "West";
             // 
+            // openGameFileDialog
+            // 
+            this.openGameFileDialog.FileName = "openGameFileDialog";
+            this.openGameFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.OpenGameFileDialog_FileOk);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -311,6 +318,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.OpenFileDialog openGameFileDialog;
     }
 }
 

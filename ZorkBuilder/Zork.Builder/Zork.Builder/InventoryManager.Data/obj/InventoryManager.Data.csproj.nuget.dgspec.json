@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ally_\\source\\repos\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj": {}
+    "C:\\Users\\ally_\\Documents\\GitHub\\ZorkBuilder\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ally_\\source\\repos\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj": {
+    "C:\\Users\\ally_\\Documents\\GitHub\\ZorkBuilder\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ally_\\source\\repos\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ally_\\Documents\\GitHub\\ZorkBuilder\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj",
         "projectName": "InventoryManager.Data",
-        "projectPath": "C:\\Users\\ally_\\source\\repos\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj",
+        "projectPath": "C:\\Users\\ally_\\Documents\\GitHub\\ZorkBuilder\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\InventoryManager.Data.csproj",
         "packagesPath": "C:\\Users\\ally_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ally_\\source\\repos\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\obj\\",
+        "outputPath": "C:\\Users\\ally_\\Documents\\GitHub\\ZorkBuilder\\ZorkBuilder\\Zork.Builder\\Zork.Builder\\InventoryManager.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
