@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zork.Builder", "Zork.Builder\Zork.Builder.csproj", "{2FA0F499-C5C8-489D-ABDF-622955CB8438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.Data", "Zork.Builder\InventoryManager.Data\InventoryManager.Data.csproj", "{B97B6F9A-DF15-4984-B6B0-7AC595A76A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA0F499-C5C8-489D-ABDF-622955CB8438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA0F499-C5C8-489D-ABDF-622955CB8438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA0F499-C5C8-489D-ABDF-622955CB8438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA0F499-C5C8-489D-ABDF-622955CB8438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97B6F9A-DF15-4984-B6B0-7AC595A76A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97B6F9A-DF15-4984-B6B0-7AC595A76A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97B6F9A-DF15-4984-B6B0-7AC595A76A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97B6F9A-DF15-4984-B6B0-7AC595A76A05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB995A13-FFB5-4C8F-8770-2390C22A109D}
+	EndGlobalSection
+EndGlobal

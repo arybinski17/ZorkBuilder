@@ -1,0 +1,11 @@
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\bin\Debug\Zork.Builder.exe.config
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\bin\Debug\Zork.Builder.exe
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\bin\Debug\Zork.Builder.pdb
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.csprojAssemblyReference.cache
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.Form1.resources
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.Neighbors.resources
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.Properties.Resources.resources
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.csproj.GenerateResource.cache
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.csproj.CoreCompileInputs.cache
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.exe
+C:\Users\ally_\source\repos\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.pdb
