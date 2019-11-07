@@ -26,3 +26,4 @@ C:\Users\ally_\Documents\GitHub\ZorkBuilder\ZorkBuilder\Zork.Builder\Zork.Builde
 C:\Users\ally_\Documents\GitHub\ZorkBuilder\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.csproj.CopyComplete
 C:\Users\ally_\Documents\GitHub\ZorkBuilder\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.exe
 C:\Users\ally_\Documents\GitHub\ZorkBuilder\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.pdb
+C:\Users\ally_\Documents\GitHub\ZorkBuilder\ZorkBuilder\Zork.Builder\Zork.Builder\obj\Debug\Zork.Builder.csproj.Fody.CopyLocal.cache

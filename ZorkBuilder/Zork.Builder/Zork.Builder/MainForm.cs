@@ -10,19 +10,29 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using InventoryManager.Data;
 using System.IO;
+using Zork.Builder.ViewModels;
 
 namespace Zork.Builder
 {
     public partial class MainForm : Form
     {
-        private World World
+        private WorldViewModel ViewModel
         {
-            get => mWorld;
-            set => mWorld = value;
+            get => mViewModel;
+            set
+            {
+                if (mViewModel != value)
+                {
+                    mViewModel = value;
+                    worldViewModelBindingSource.DataSource = mViewModel;
+                }
+
+            }
         }
         public MainForm()
         {
             InitializeComponent();
+            ViewModel = new WorldViewModel();
 
         }
 
@@ -45,7 +55,8 @@ namespace Zork.Builder
         {
             if (openGameFileDialog.ShowDialog() == DialogResult.OK)
             {
-                World = JsonConvert.DeserializeObject<World>(File.ReadAllText(openGameFileDialog.FileName));
+                ViewModel.World = JsonConvert.DeserializeObject<World>(File.ReadAllText(openGameFileDialog.FileName));
+                ViewModel.Filename = openGameFileDialog.FileName;
             }
         }
 
@@ -54,6 +65,6 @@ namespace Zork.Builder
 
         }
 
-        private World mWorld;
+        private WorldViewModel mViewModel;
     }
 }

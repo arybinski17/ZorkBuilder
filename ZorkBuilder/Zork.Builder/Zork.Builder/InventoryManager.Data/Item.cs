@@ -1,7 +1,9 @@
-﻿namespace InventoryManager.Data
+﻿using System.ComponentModel;
+namespace InventoryManager.Data
 {
-    public class Item
+    public class Item : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
         public string Name { get; set; }
     }
 }
